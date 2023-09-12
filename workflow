@@ -13,5 +13,5 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Say Hello bro
+    - name: Say Hello
       run: echo "Hello, World"
