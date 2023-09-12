@@ -1,4 +1,4 @@
-name: Hello World
+ name: Hello World
 
 on:
   push:
@@ -13,5 +13,5 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Say Hello
+    - name: Say Hello bro
       run: echo "Hello, World"
